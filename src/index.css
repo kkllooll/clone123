@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-lg {
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.4),
+    -7px -7px 12px rgba(255, 255, 255, 0.9);
+}
+.innerShadow {
+}
+:root {
+  @apply bg-slate-200;
+}
